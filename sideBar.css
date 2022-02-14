@@ -1,0 +1,43 @@
+body{
+
+    margin: 0;
+}
+
+img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.sideBar{
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: green;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+  
+      
+}
+
+.sidebar a {
+    display: inline-block;
+    color: black;
+    padding: 16px;
+    text-decoration: none;
+  }
+
+  
+.sidebar a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+  
+  .sidebar a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+  }
+
+
+  
